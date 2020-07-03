@@ -1,0 +1,36 @@
+.Gerenciamento {
+    box-shadow: #ccc -1px 2px 5px;
+    background-color: #fff;
+}
+
+.Gerenciamento td {
+    padding: 20px;
+    text-align: center;
+ }
+
+ .Gerenciamento td:first-child {
+   border-radius: 4px;
+   border-left: 3px solid #85a8f8;
+}
+
+.Gerenciamento td:last-child {
+   border-radius: 4px;
+   border-right: 1px solid #fff;
+}
+
+
+ .Gerenciamento td span:after {
+    content: '|';
+    margin-left: 3px;
+    margin-right: 3px;
+ }
+
+ .Gerenciamento td span:last-child:after {
+    content: none;
+ }
+
+ @media (max-width: 768px) {
+   .Gerenciamento td {
+      padding: 15px;
+   }
+}

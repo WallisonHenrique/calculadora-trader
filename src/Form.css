@@ -1,0 +1,47 @@
+.Form {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.Form div {
+    margin-bottom: 15px;
+}
+
+.Form label {
+    margin-bottom: 5px;
+}
+
+.Form label, .Form input, .Form select { 
+    display: block;
+}
+
+.Form input, .Form button, .Form select {
+    height: 40px;
+    width: 100%;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+}
+
+.Form input, .Form select {
+    text-align: center;
+    line-height: 2;
+}
+
+.Form input:focus, .Form button, .Form select {
+    outline: none;
+}
+
+.Form button {
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #85a8f8;
+    color: #091e4f;
+}
+
+@media (min-width: 769px) {
+    .Form {
+        margin-top: 50px;
+    }
+}
+
