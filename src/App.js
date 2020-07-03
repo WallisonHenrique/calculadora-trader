@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <article className="App">
         <div className="sidebar">
-          <h1>Calculadora Trader</h1>
+          <h1>Calculadora Opções Binárias</h1>
           <Form onCalcSubmit={this.handleCalcSubmit} config={this.state} />
         </div>
         <Gerenciamentos config={this.state} />
