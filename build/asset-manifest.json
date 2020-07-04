@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/calculadora-trader/static/css/main.c836897d.chunk.css",
+    "main.js": "/calculadora-trader/static/js/main.80004999.chunk.js",
+    "main.js.map": "/calculadora-trader/static/js/main.80004999.chunk.js.map",
+    "runtime-main.js": "/calculadora-trader/static/js/runtime-main.a7bd202d.js",
+    "runtime-main.js.map": "/calculadora-trader/static/js/runtime-main.a7bd202d.js.map",
+    "static/js/2.8c104f67.chunk.js": "/calculadora-trader/static/js/2.8c104f67.chunk.js",
+    "static/js/2.8c104f67.chunk.js.map": "/calculadora-trader/static/js/2.8c104f67.chunk.js.map",
+    "index.html": "/calculadora-trader/index.html",
+    "precache-manifest.4b964994cc215b7ba6ccb0e5ddbb5cd3.js": "/calculadora-trader/precache-manifest.4b964994cc215b7ba6ccb0e5ddbb5cd3.js",
+    "service-worker.js": "/calculadora-trader/service-worker.js",
+    "static/css/main.c836897d.chunk.css.map": "/calculadora-trader/static/css/main.c836897d.chunk.css.map",
+    "static/js/2.8c104f67.chunk.js.LICENSE.txt": "/calculadora-trader/static/js/2.8c104f67.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7bd202d.js",
+    "static/js/2.8c104f67.chunk.js",
+    "static/css/main.c836897d.chunk.css",
+    "static/js/main.80004999.chunk.js"
+  ]
+}
