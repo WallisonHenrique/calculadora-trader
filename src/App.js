@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form';
-import Gerenciamentos from './Gerenciamentos';
+import Managements from './Managements';
 import './App.css';
 
 class App extends Component {
@@ -8,9 +8,9 @@ class App extends Component {
     super(props);
 
     this.state = {
-      entrada: 2,
-      moeda: "R$",
-      entradas: 3,
+      entry: 2,
+      currency: "R$",
+      entries: 3,
       payout: 87
     }
 
@@ -28,11 +28,10 @@ class App extends Component {
           <h1>Calculadora Opções Binárias</h1>
           <Form onCalcSubmit={this.handleCalcSubmit} config={this.state} />
         </div>
-        <Gerenciamentos config={this.state} />
+        <Managements config={this.state} />
       </article>
     );
   }
 }
-
 
 export default App;

@@ -1,20 +1,20 @@
-.Gerenciamentos { 
+.Managements { 
     width: 100%;
     background-color: #F6F8FA;
     overflow-x: auto;
 }
 
-.Gerenciamentos table { 
+.Managements table { 
     width: 100%;
     border-spacing:0 20px;
     padding: 20px
 }
 
-.Gerenciamentos tr:first-child { 
+.Managements tr:first-child { 
     padding-bottom: 20px;
 }
 
-.Gerenciamentos tr:first-child th { 
+.Managements tr:first-child th { 
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ccc;
